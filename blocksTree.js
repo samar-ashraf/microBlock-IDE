@@ -1,3 +1,4 @@
+//this file controlls the total appearance of the IDE 
 let blocksTree = [
     {
         name: "Pin",
