@@ -1,8 +1,8 @@
 addBoard({
-    id: "esp32-dev-board",
-    name: "ESP32 Dev Board",
-    description: "",
-    image: "images/cover.jpg",
+    id: "TeKTech",//name of board directory
+    name: "Tek Techer H-1",//name of the board to be displayed in the IDE 
+    description: "",//if we want to put a describtion 
+    image: "images/cover.jpg",//image directory source to be displayed on IDE 
     script: [ 
         // "js/field_bitmap.js",
     ],
@@ -10,6 +10,7 @@ addBoard({
         // "css/field_bitmap.css",
     ],
     blocks: [
+        //blockes directory 
         "blocks/blocks_pin.js",
         "blocks/blocks_advanced.js",
 
@@ -19,11 +20,12 @@ addBoard({
     modules: [ ],
     firmware: [
         {
+            //firmware directory and its all related stuff 
             name: "MicroPython for ESP32 Dev Board V1.6.0",
             path: "firmware/MicroPython.for.ESP32.Dev.Board.V1.6.0.bin",
             version: "V1.6.0",
             date: "2021-1-30",
-            board: "ESP32 Dev Board",
+            board: "Tek Techer H-1",
             cpu: "ESP32"
         }
     ],
