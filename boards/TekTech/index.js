@@ -36,8 +36,8 @@ addBoard({
         }
     ],
     autoCompletion: { },
-    level: [
-        {
+    level: [ 
+        { // from this section work with th user interface and its related stuff 
             name: "Beginner",
             description: "",
             icon: "../kidbright32/images/puzzle.png",
