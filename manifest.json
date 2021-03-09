@@ -1,5 +1,5 @@
 {
-    //here we can modify the appearnce of the IDE (will add our name, github )
+    //here we can modify the appearnce of the IDE (will add our name, github)
     "name": "microBlock IDE",
     "short_name": "microBlock IDE",
     "icons": [
